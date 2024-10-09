@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "İYTE Yazılım Topluluğu e-mail kontrol",
-  description: "",
+  title: "Iztech Software Society Check Email Breaches",
+  description: "İYTE Yazılım Topluluğu e-mail sızdırma kontrolü için yapılmış bir uygulamadır.",
 };
 
 export default function RootLayout({
