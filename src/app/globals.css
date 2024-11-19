@@ -1,5 +1,3 @@
-/* src/app/globals.css */
-/* src/app/globals.css */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -64,7 +62,6 @@ button:hover {
   margin: 5px 0;
 }
 
-/* Message container styling */
 .message-container {
   max-width: 400px;
   margin: 20px auto;
@@ -88,7 +85,6 @@ button:hover {
   background-color: #dc3545;
 }
 
-/* Spinner styles */
 .spinner {
   border: 8px solid #f3f3f3;
   border-radius: 50%;
@@ -105,5 +101,5 @@ button:hover {
 }
 .message-container.success img {
   display: block;
-  margin: 0 auto 10px; /* Center the image and add margin at the bottom */
+  margin: 0 auto 10px;
 }

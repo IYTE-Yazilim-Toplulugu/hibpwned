@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# E-MAIL DATA BREACH CONTROL
+
+This is a [Next.js](https://nextjs.org) application styled with [`Tailwind CSS`](https://tailwindcss.com/) that allows users to check if their email has been compromised in any data breaches. The app leverages the [`Have I Been Pwned (HIBP) API`](https://haveibeenpwned.com/API/v3) for reliable breach data.
+
+## Features
+- **Email Breach Search:** Quickly search for breaches associated with an email.
+- **Real-time Results:** Instant response from the HIBP API.
+- **Privacy-focused:** Only uses the HIBP API; no data is stored or shared.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- **Node.js:** Ensure you have Node.js installed (version 18+ recommended).
+- **API Key:** Obtain a Have I Been Pwned API key from [`HIBP's website.`](https://haveibeenpwned.com/API/Key)
 
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/IYTE-Yazilim-Toplulugu/hibpwned.git
+cd email-data-breach-checker
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Set up environment variables: Create a .env.local file in the project root and add the following:
+```env
+HIBP_API_KEY=your_api_key_here
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Start the development server:
+```bash
+npm run dev
+``` 
 
-## Learn More
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Enter an email address into the search bar.
+2. Click the "Check" button.
+3. View breach details or confirmation of no breaches.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- **Framework:** [Next.js](https://nextjs.org)
+- **Styling:** [`Tailwind CSS`](https://tailwindcss.com/)
+- **API:** [`Have I Been Pwned (HIBP) API`](https://haveibeenpwned.com/API/v3)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Licence
+This project is licensed under the MIT License. See the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.
