@@ -1,6 +1,6 @@
 # E-MAIL DATA BREACH CONTROL
 
-This is a [Next.js](https://nextjs.org) application styled with [`Tailwind CSS`](https://tailwindcss.com/) that allows users to check if their email has been compromised in any data breaches. The app leverages the [`Have I Been Pwned (HIBP) API`](https://haveibeenpwned.com/API/v3) for reliable breach data.
+This is a [`Next.js`](https://nextjs.org) application styled with [`Tailwind CSS`](https://tailwindcss.com/) that allows users to check if their email has been compromised in any data breaches. The app leverages the [`Have I Been Pwned (HIBP) API`](https://haveibeenpwned.com/API/v3) for reliable breach data.
 
 ## Features
 - **Email Breach Search:** Quickly search for breaches associated with an email.
@@ -46,7 +46,7 @@ npm run dev
 
 ## Technologies Used
 
-- **Framework:** [Next.js](https://nextjs.org)
+- **Framework:** [`Next.js`](https://nextjs.org)
 - **Styling:** [`Tailwind CSS`](https://tailwindcss.com/)
 - **API:** [`Have I Been Pwned (HIBP) API`](https://haveibeenpwned.com/API/v3)
 
